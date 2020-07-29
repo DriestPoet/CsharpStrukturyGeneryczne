@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\1_TypyGeneryczne\1_TypyGeneryczne.csproj">
+      <Project>{722800be-8de6-4116-83af-8f65fa0d569e}</Project>
+      <Name>1_TypyGeneryczne</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
